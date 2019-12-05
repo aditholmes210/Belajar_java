@@ -1,0 +1,54 @@
+Pattern (pola) coding java
+ 1. variabel & konstanta
+ 2. tipe data
+ 3. operator
+ 4. struktur kontrol
+	> percabangan
+	> pengulangan (looping)
+ 5. function & procedur
+ 6. array
+ 7. error handling
+
+Java:
+     - Bhs pemrograman berorientasi objek murni yg dibuat berdasarkan kemampuan2 terbaik bhs pemrog objek sblmnya (C++, Ada, Simula)
+     - Diciptakan oleh James Gosling, developer dari Sun Microsystems pada 1991
+
+ > Karakteristik
+	- Sederhana, semudah C & seampuh C++; berlawanan dengan anggapan orang2 bahwa bhs java sulit dipelajari,
+	  java gampang utk dipelajari terutama utk org yg telah mengenal pemrog tapi blm terikat pd paradigma
+	  pemrog prosedural. Tentu saja ini berarti bahwa kita harus siap utk mempelajari salah satu teknologi
+	  yg berkembang paling cepat di dunia dalam dua tahun terakhit ini dengan banyak membaca tentunya baik
+	  dari buku maupun web.
+	- Sangat berorientasi objek (OOP) dengan implementasi yg baik.
+	- Arsitekturnya yg kokoh & pemrog yg aman (Tidak mudah hang karna konflik pada memoru biasanya
+	  diselesaikan dg mengumpulkan objek2 yg tdk terpakai scr otomatis dgn garbage collector.Penanganan
+	  dipermudah dengan menggunakan konsep exception.
+	- Merupakan platform sekaligus arsitektur.
+	- Punya portabilitas yg tinggi.
+	- Enterprise Java (J2EEE) utk aplikasi berbasis web, aplikasi sist tersebar dg beragam klien dgn kompleksitas tinggi
+	  merupakan superset standart java.
+	- Standar java (J2SE) merupakan fokus kita sekarang.
+	- Micro Java (J2ME) merupakan subjet dr J2SE & salah satu aplikasi yg banyak dipakai adl wireless device/mobile device
+	- Prog java dijalankan menggunakan interpreter mlalui Java Virtual Machine (JVM). jadi bisa dipake di platform yg
+	  berbeda-beda
+	- Fitur2 utama yg lain (Mendukung multithreading[melakukan banyak proses dlm 1 waktu], Selalu mmeriksa tipe objek pada
+	  saat runtime).
+
+
+Translator ==> Bhs pemrog ke bhs mesin
+	- Compiler (C++, C, Basic, Pascal, Delphi)> translator [codingan harus bener semua baru jadi program]
+	- Interpreter (JS, PHP)> translator + engine [jalanin barisperbaris dulu klo ada error program lsg di close]
+
+
+Identifier di java:
+ > Identifier adl nama yg diberikan kpd variabel, method, kelas, paket, & interface
+ > Tatacara penamaan:
+	- Case sensitif -> huruf besar & kecil dibedakan
+	- Identifier yg diberikan oleh pemrog tdk boleh sama dgn keyword yg ada di java
+	- Dimulai dgn huruf/underscore/$. Namun sebisa mungkin diawali huruf karena awalan dgn underscore
+	  dan $ digunakan utk pemrosesan internal & file import
+	- Karakter berikutnya dapat berupa huruf/angka 0 sampai 9. Simbol2 seperti '+' dan spasi tdk dpt digunakan
+
+Tipe data di java:
+ >
+ > Primitif
