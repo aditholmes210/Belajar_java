@@ -8,6 +8,13 @@ public class HelloWorld{
 		car ford = new car();
 		ford.merk = "Ford Mustang GT500";
 		ford.maju();
+		
+		if(args.length == 0){
+			System.out.println("No launch option !?");
+		}
+		else{
+			System.out.println(args[1]+args[0]);
+		}
 	}
 } 
 
