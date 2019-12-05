@@ -1,11 +1,11 @@
 public class HelloWorld{
 	public static void main(String[] args){
 		System.out.println("Hello World !");
-		car bmw = new car(); //bangun object mobil bmw
+		mobil bmw = new mobil(); //bangun object mobil bmw
 		bmw.merk = "BMW M850i";
 		bmw.maju();
 		
-		car ford = new car();
+		mobil ford = new mobil();
 		ford.merk = "Ford Mustang GT500";
 		ford.maju();
 	}
